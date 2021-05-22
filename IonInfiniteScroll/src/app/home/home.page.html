@@ -1,0 +1,24 @@
+<ion-content id="home" [fullscreen]="true">
+  <h1>List of Fruits:</h1>
+  <div id="grid" class="grid" (scroll)="onScroll($event)">
+    <div class="grid-item" *ngFor="let item of items">
+      <p>{{item.name}}</p>
+      <div class="divider"></div>
+      <p class="fact">Family: <span>{{item.family}}</span></p>
+      <p class="fact">Genus: <span>{{item.genus}}</span></p>
+      <p class="fact">Nutrition:</p>
+      <ul>
+        <li>Calories: <span>{{item.nutritions.calories}}</span></li>
+        <li>Carbohydrates: <span>{{item.nutritions.carbohydrates}}</span></li>
+        <li>Protein: <span>{{item.nutritions.protein}}</span></li>
+        <li>Sugar: <span>{{item.nutritions.sugar}}</span></li>
+        <li>Fat: <span>{{item.nutritions.fat}}</span></li>
+      </ul>
+    </div>
+  </div>
+  <!-- Loading Prompt -->
+  <div id="loading-container" class="loading">
+    <mat-spinner diameter="70" class="loading-spinner"></mat-spinner>
+    <p class="loading-msg">Loading more fruits!</p> 
+  </div>
+</ion-content>
