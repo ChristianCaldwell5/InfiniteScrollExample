@@ -1,2 +1,2 @@
-# IonInfiniteScrollExample
-Ionic Infinite Scroll Example
+# InfiniteScrollExample
+Infinite scroll example done within an Ionic project. 
