@@ -8,7 +8,7 @@ import { catchError, retry } from 'rxjs/operators';
 })
 export class ItemsService {
 
-  private requestUrl = "http://localhost:8101/api";
+  private requestUrl = "http://localhost:8100/api";
 
   constructor(
     private http: HttpClient
