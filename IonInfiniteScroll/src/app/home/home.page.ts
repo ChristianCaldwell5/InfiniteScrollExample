@@ -9,8 +9,6 @@ import { ItemsService} from '../services/items.service';
 })
 export class HomePage {
 
-  @ViewChild(IonInfiniteScroll) infiniteScroll: IonInfiniteScroll;
-
   public fetchedItems = [];
 
   // items displayed on DOM
