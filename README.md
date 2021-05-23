@@ -1,5 +1,5 @@
 # InfiniteScrollExample
-Infinite scroll example in an Angular Ionic project without uisng the IonInfiniteScroll component. 
+Infinite scroll in an Angular Ionic project
 
 ## API Used for data: 
 [Fruityvice](https://www.fruityvice.com/)
